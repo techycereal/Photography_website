@@ -342,14 +342,14 @@ h6 {
 
 #hero .carousel-item {
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
 #hero .carousel-container {
   display: flex;
-  justify-content: bottom;
-  align-items: bottom;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   bottom: 50px;
   top: 70px;
@@ -358,7 +358,7 @@ h6 {
 }
 
 #hero .container {
-  text-align: bottom;
+  text-align: center;
 }
 
 #hero h2 {
@@ -376,7 +376,7 @@ h6 {
 
 #hero .carousel-inner .carousel-item {
   transition-property: opacity;
-  background-position: bottom center;
+  background-position: top center;
 }
 
 #hero .carousel-inner .carousel-item,
